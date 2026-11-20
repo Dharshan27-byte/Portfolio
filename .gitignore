@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.aistudio/
+.env*
+!.env.example
+public/assets/aistudio/2026-11-19_17-03-17_75e85f4d.mp4
