@@ -49,7 +49,6 @@ export const PROFILE = {
   phone: '+91 88836 06436',
   portrait: '/assets/portfolio/portrait.jpg',
   resumePdf: '/assets/portfolio/Yoga_Dharshan_P_Resume.pdf',
-  resumePreview: '/assets/portfolio/resume-preview.png',
   headline: 'Software you never have to overthink.',
   subheadline:
     'Full Stack Developer & AI and Data Science student at SKCET building healthcare companions, fitness analytics apps, and automated pipelines.',

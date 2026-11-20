@@ -65,11 +65,10 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ open, onClose }) => {
         <div className="grid grid-cols-1 gap-6 overflow-y-auto p-5 sm:p-7 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <div className="overflow-hidden rounded-xl border border-white/10 bg-[#08080a]">
-              <img
-                src={PROFILE.resumePreview}
-                alt={`Resume document of ${PROFILE.name}`}
-                referrerPolicy="no-referrer"
-                className="w-full object-contain"
+              <iframe
+                src={PROFILE.resumePdf}
+                title={`${PROFILE.name} resume PDF`}
+                className="h-[68vh] min-h-[420px] w-full bg-white"
               />
             </div>
           </div>
